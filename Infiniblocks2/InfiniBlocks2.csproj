@@ -53,6 +53,9 @@
     <Folder Include="core\pattern\shape\" />
     <Folder Include="core\state\" />
     <Folder Include="core\enum\" />
+    <Folder Include="core\GameObjects\" />
+    <Folder Include="core\Collision\" />
+    <Folder Include="core\GameObjects\Shapes\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="core\Program.cs" />
@@ -89,6 +92,15 @@
     <Compile Include="core\enum\BallStateEnumeration.cs" />
     <Compile Include="core\enum\PowerTypeEnumeration.cs" />
     <Compile Include="core\Sound.cs" />
+    <Compile Include="core\EmptyClass.cs" />
+    <Compile Include="core\PlayingField.cs" />
+    <Compile Include="core\GameObjects\GameObject.cs" />
+    <Compile Include="core\Collision\CollisionChecker.cs" />
+    <Compile Include="core\GameObjects\Shapes\Circle.cs" />
+    <Compile Include="core\GameObjects\Shapes\Rectangle.cs" />
+    <Compile Include="core\GameObjects\Shapes\Shape.cs" />
+    <Compile Include="core\GameObjects\Shapes\Triangle.cs" />
+    <Compile Include="core\Config.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="content\font\DebugFont.spritefont" />
