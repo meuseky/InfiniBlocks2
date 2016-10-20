@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Infiniblocks2/InfiniBlocks2.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infiniblocks2/core/Game1.cs">
+    <Files>
+      <File FileName="Infiniblocks2/core/pattern/shape/DirectionalShape.cs" Line="1" Column="1" />
+      <File FileName="Infiniblocks2/core/state/IntroState.cs" Line="1" Column="1" />
+      <File FileName="Infiniblocks2/core/state/MenuState.cs" Line="1" Column="1" />
+      <File FileName="Infiniblocks2/core/state/OutroState.cs" Line="1" Column="1" />
+      <File FileName="Infiniblocks2/core/state/InPlayState.cs" Line="1" Column="1" />
+      <File FileName="Infiniblocks2/core/Game1.cs" Line="12" Column="24" />
+      <File FileName="Infiniblocks2/core/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,4 @@
+/home/meuseky/Dev/Infiniblocks2/Infiniblocks2/Infiniblocks2/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/meuseky/Dev/Infiniblocks2/Infiniblocks2/Infiniblocks2/bin/Debug/MonoGame.Framework.dll
+/home/meuseky/Dev/Infiniblocks2/Infiniblocks2/Infiniblocks2/bin/Debug/OpenTK.dll
+/home/meuseky/Dev/Infiniblocks2/Infiniblocks2/Infiniblocks2/bin/Debug/NVorbis.dll

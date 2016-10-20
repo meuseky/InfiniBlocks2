@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{46DB8934-2956-4216-900F-1297825033AF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Infiniblocks2</RootNamespace>
+    <AssemblyName>Infiniblocks2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="content\" />
+    <Folder Include="content\audio\" />
+    <Folder Include="core\" />
+    <Folder Include="data\" />
+    <Folder Include="test\" />
+    <Folder Include="ui\" />
+    <Folder Include="content\audio\effect\" />
+    <Folder Include="content\audio\music\" />
+    <Folder Include="content\font\" />
+    <Folder Include="content\image\" />
+    <Folder Include="content\image\transition\" />
+    <Folder Include="content\image\transition\intro\" />
+    <Folder Include="content\image\transition\outro\" />
+    <Folder Include="content\image\menu\" />
+    <Folder Include="content\image\game\" />
+    <Folder Include="core\pattern\" />
+    <Folder Include="core\pattern\enum\" />
+    <Folder Include="core\pattern\util\" />
+    <Folder Include="core\pattern\generator\" />
+    <Folder Include="core\pattern\shape\" />
+    <Folder Include="core\state\" />
+    <Folder Include="core\enum\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="core\Program.cs" />
+    <Compile Include="core\ContentGeneration.cs" />
+    <Compile Include="core\GameAssets.cs" />
+    <Compile Include="core\GameStates.cs" />
+    <Compile Include="ui\MenuButton.cs" />
+    <Compile Include="ui\Block.cs" />
+    <Compile Include="ui\Bat.cs" />
+    <Compile Include="ui\Ball.cs" />
+    <Compile Include="ui\PowerUp.cs" />
+    <Compile Include="ui\SoundTypeEnumeration.cs" />
+    <Compile Include="ui\Menu.cs" />
+    <Compile Include="core\pattern\enum\SeedTypeEnumeration.cs" />
+    <Compile Include="core\pattern\enum\CutDirEnumeration.cs" />
+    <Compile Include="core\pattern\generator\MainGenerator.cs" />
+    <Compile Include="core\pattern\generator\BlockGenerator.cs" />
+    <Compile Include="core\pattern\generator\ColorGenerator.cs" />
+    <Compile Include="core\pattern\generator\SolidGenerator.cs" />
+    <Compile Include="core\pattern\shape\SimpleShape.cs" />
+    <Compile Include="core\pattern\shape\DirectionalShape.cs" />
+    <Compile Include="core\state\IntroState.cs" />
+    <Compile Include="core\state\MenuState.cs" />
+    <Compile Include="core\state\InPlayState.cs" />
+    <Compile Include="core\state\OutroState.cs" />
+    <Compile Include="ui\ScreenManager.cs" />
+    <Compile Include="ui\BlockTypeEnumeration.cs" />
+    <Compile Include="core\Game1.cs" />
+    <Compile Include="core\enum\GameStateEnumeration.cs" />
+    <Compile Include="core\enum\InPlayStateEnumeration.cs" />
+    <Compile Include="core\enum\MenuScreenEnumeration.cs" />
+    <Compile Include="core\enum\AnimStateEnumeration.cs" />
+    <Compile Include="core\enum\GameStrengthEnumeration.cs" />
+    <Compile Include="core\enum\BallStateEnumeration.cs" />
+    <Compile Include="core\enum\PowerTypeEnumeration.cs" />
+    <Compile Include="core\Sound.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\font\DebugFont.spritefont" />
+    <None Include="content\font\MenuFont.spritefont" />
+    <None Include="content\font\PauseFont.spritefont" />
+    <None Include="content\font\ScoreFont.spritefont" />
+    <None Include="content\audio\effect\ButtonPress.wav" />
+    <None Include="content\audio\effect\GameOver.wav" />
+    <None Include="content\audio\effect\HitBat.wav" />
+    <None Include="content\audio\effect\HitBlock.wav" />
+    <None Include="content\audio\effect\LoseLife.wav" />
+    <None Include="content\audio\effect\NewLevel.wav" />
+    <None Include="content\audio\effect\PowerUp.wav" />
+    <None Include="content\audio\effect\ServeBall.wav" />
+    <None Include="content\audio\music\InPlayMusic01.mp3" />
+    <None Include="content\audio\music\InPlayMusic02.mp3" />
+    <None Include="content\audio\music\InPlayMusic03.mp3" />
+    <None Include="content\audio\music\InPlayMusic04.mp3" />
+    <None Include="content\audio\music\InPlayMusic05.mp3" />
+    <None Include="content\audio\music\IntroMusic.mp3" />
+    <None Include="content\audio\music\OutroMusic.mp3" />
+    <None Include="content\audio\music\TitleTheme.mp3" />
+    <None Include="content\image\transition\intro\IntroBackground.png" />
+    <None Include="content\image\transition\intro\Logo.png" />
+    <None Include="content\image\transition\intro\LogoMask.png" />
+    <None Include="content\image\transition\outro\OutroBackground.png" />
+    <None Include="content\image\menu\BackGameButton.png" />
+    <None Include="content\image\menu\EasyGameButton.png" />
+    <None Include="content\image\menu\EmptyButton.png" />
+    <None Include="content\image\menu\ExitGameButton.png" />
+    <None Include="content\image\menu\HardGameButton.png" />
+    <None Include="content\image\menu\HighScoreBack.png" />
+    <None Include="content\image\menu\HighScoreButton.png" />
+    <None Include="content\image\menu\MainMenuBack.png" />
+    <None Include="content\image\menu\MediumGameButton.png" />
+    <None Include="content\image\menu\NewGameBack.png" />
+    <None Include="content\image\menu\NewGameButton.png" />
+    <None Include="content\image\menu\Setting1Button.png" />
+    <None Include="content\image\menu\Setting2Button.png" />
+    <None Include="content\image\menu\Setting3Button.png" />
+    <None Include="content\image\menu\SettingsBack.png" />
+    <None Include="content\image\menu\SettingsButton.png" />
+    <None Include="content\image\game\BackTile.png" />
+    <None Include="content\image\game\Ball.png" />
+    <None Include="content\image\game\Bat.png" />
+    <None Include="content\image\game\Block.png" />
+    <None Include="content\image\game\Border.png" />
+    <None Include="content\image\game\InfoScreen.png" />
+    <None Include="content\image\game\InPlayBackground.png" />
+    <None Include="content\image\game\PauseScreen.png" />
+    <None Include="content\image\game\PlayingField.png" />
+    <None Include="content\image\game\PowerUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\..\..\..\..\usr\lib\mono\xbuild\MonoGame\v3.0\Tools\MonoGame.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

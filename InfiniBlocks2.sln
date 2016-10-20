@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniBlocks2", "Infiniblocks2\InfiniBlocks2.csproj", "{46DB8934-2956-4216-900F-1297825033AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46DB8934-2956-4216-900F-1297825033AF}.Debug|x86.ActiveCfg = Debug|x86
+		{46DB8934-2956-4216-900F-1297825033AF}.Debug|x86.Build.0 = Debug|x86
+		{46DB8934-2956-4216-900F-1297825033AF}.Release|x86.ActiveCfg = Release|x86
+		{46DB8934-2956-4216-900F-1297825033AF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
